@@ -4,10 +4,14 @@
 
 목차는 아래와 같습니다.
 
-* BIDSCoin을 위한 데이터 구조 만들기
+* BIDSCoin을 위한 데이터 구조 만들기 (BIDSCoinStructure.py 참조)
 * BIDSCoin 실행하기
 * fMRIprep 실행하기
 
+### BIDCoin을 위한 데이터 구조 만들기
 
+### BIDSCoin 실행하기
+
+### fMRIprep 실행하기
 
 
