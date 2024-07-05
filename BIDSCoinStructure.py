@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# fMRI와 T1 파일이 들어있는 폴더의 경로를 입력한다.
+# fMRI와 T1 파일이 들어있는 폴더의 경로를 입력한다. pre_bids_path_fMRI에는 fMRI폴더의 경로를, T1에는 T1폴더의 경로를 넣으면 된다.
 
 pre_bids_path_fMRI = "/Users/oj/Desktop/RAW_DATA/HC/NML_fMRI"
 pre_bids_path_T1 = "/Users/oj/Desktop/RAW_DATA/HC/NML_T1"
