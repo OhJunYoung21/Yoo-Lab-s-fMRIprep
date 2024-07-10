@@ -46,6 +46,14 @@ pip install dcm2niix
 # 제대로 설치되었는지 확인한다.
 dcm2niix --version
 ~~~
+
+😀 BIDS에 대해서 좀 더 궁금한 사람?😀
+
+⬇️ 다음 링크에 BIDS에 대해서 제가 이해한 내용을 정리해놓았습니다. ⬇️
+
+[BIDS 정리 노트](https://github.com/OhJunYoung21/Sleep-fMRI/tree/main/BIDS_Coin)
+
+
 ### 3️⃣ fMRIprep 실행하기
 
 input_folder에는 BIDS format의 형식으로 된 폴더를 지정하며, output_folder에는 전처리가 완료된 파일을 어디에 놓을지를 지정한다.
