@@ -48,4 +48,27 @@ dcm2niix --version
 ~~~
 ### 3️⃣ fMRIprep 실행하기
 
+input_folder에는 BIDS format의 형식으로 된 폴더를 지정하며, output_folder에는 전처리가 완료된 파일을 어디에 놓을지를 지정한다.
+
+~~~linux
+#!/bin/bash
+
+input_folder="$HOME/Desktop/pre_BIDS/pre_BIDS_RBD"
+output_folder="$HOME/Desktop/pre_BIDS/pre_prep_RBD"
+
+
+fmriprep-docker $input_folder $output_folder \
+  participant \
+    --skip-bids-validation \
+    --fs-license-file $HOME/Downloads/license.txt \
+    --mem-mb 8000 \
+    --fs-no-reconall \
+    --stop-on-first-crash \
+    --md-only-boilerplate \
+    --use-syn-sdc \
+    --dummy-scans 3 \
+    --output-spaces MNI152NLin2009cAsym \
+    --nthreads 8 \
+~~~
+
 
