@@ -6,6 +6,6 @@
 
 위 에러는 -file-format cifti라는 명렁어를 시스템이 인식하지 못해 발생한 오류이다.
 
-구글링을 해서 해결해보려고 하였다.(갓 구글...사랑해요🥰)
+--file-format은 cifti형식의 파일을 input으로 요구하는데, input 데이터 형식이 cifti가 아니기 때문에 발생할것이라고 생각한다.
 
-input file이 nifti였기 때문에 --file-format nifti로 바꿔주었으나, 실패하였다. 아마도 .nii.gz로 압축되어 있어서 오류가 발생한듯 싶어 압축을 풀고 다시 시도해볼 예정이다.
+그렇기 때문에 fMRIprep의 명령어에 --cifti-outputs 라는 argument를 추가해주었다.
