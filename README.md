@@ -82,7 +82,11 @@ pip install dcm2niix
 dcm2niix --version
 ~~~
 
+python3, bidscoin, dcm2niix가 모두 정상적으로 설치되었다면 아래의 링크를 참조해서 PAR,REC 파일들을 nifti파일로 바꿔주면 된다.
+
 [BIDS 정리 노트](https://github.com/OhJunYoung21/Sleep-fMRI/tree/main/BIDS_Coin)
+
+### fMRIprep 실행하기
 
 
 
