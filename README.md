@@ -14,13 +14,13 @@
 
 제가 받은 데이터의 경우 저는 NML_T1 폴더에는 T1데이터가, NML_fMRI 폴더에는 fMRI데이터가 들어있었습니다.
 
-'''bash
+~~~bash
 .
 ├──  KIMGS RBD_3_1.PAR
 ├──  KIMGS RBD_3_1.REC
 ├──  KIMJH RBD_3_1.PAR
 ├──  KIMJH RBD_3_1.REC
-'''
+~~~
 
 
 ### 2️⃣ BIDSCoin 실행하기
