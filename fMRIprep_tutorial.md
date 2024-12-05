@@ -7,6 +7,9 @@ fMRIprep에서 사용하는 여러가지 소프트웨어들을 Docker 환경내�
 
 [🐳 Docker 설치 링크](https://www.docker.com)
 
+---
+
+
 ### fMRIprep 이미지 설치
 
 Docker 설치가 완료되었으면, 아래 명령어를 사용해서 fmriprep에 필요한 이미지를 설치해줘야 한다.
@@ -14,6 +17,8 @@ Docker 설치가 완료되었으면, 아래 명령어를 사용해서 fmriprep�
 ~~~linux
 pip install --user --upgrade fmriprep-docker
 ~~~
+
+---
 
 ### fMRIprep 실행 shell 코드 작성
 
