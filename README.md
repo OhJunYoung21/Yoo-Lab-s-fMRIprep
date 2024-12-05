@@ -88,6 +88,9 @@ python3, bidscoin, dcm2niix가 모두 정상적으로 설치되었다면 아래�
 
 ### fMRIprep 실행하기
 
+fMRIprep에 자세한 내용은 아래의 링크에 담아놓았다.
+
+[fMRIprep 튜토리얼](https://github.com/OhJunYoung21/Yoo_fMRIprep/blob/main/fMRIprep_tutorial.md)
 
 
 
