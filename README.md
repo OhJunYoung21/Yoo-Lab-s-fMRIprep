@@ -14,6 +14,8 @@
 
 제가 받은 데이터의 경우 저는 NML_T1 폴더에는 T1데이터가, NML_fMRI 폴더에는 fMRI데이터가 들어있었습니다.
 
+폴더 내의 파일구조는 아래와 같습니다.
+
 ~~~bash
 .
 ├──  KIMGS RBD_3_1.PAR
@@ -22,6 +24,29 @@
 ├──  KIMJH RBD_3_1.REC
 ~~~
 
+#### ❣️ 여기서 잠깐 ❣️
+
+우리는 이런 날것(?)의 파일 형태를 fMRIprep이 사용할수 있게 적당히 손질을 해줘야 합니다. 마치 우리가 회를 먹기전에 껍질을 벗기고 내장을 덜어내는 과정처럼요.
+
+아래의 구조를 만들어줘야 fmriprep를 실행할 수 있습니다.
+
+~~~bash
+.
+├── sub-01
+│   ├── LEE HS PARKINSON3_2_1.PAR
+│   ├── LEE HS PARKINSON3_2_1.REC
+│   ├── LEE HS PARKINSON3_3_1.PAR
+│   └── LEE HS PARKINSON3_3_1.REC
+├── sub-02
+│   ├── KIM JS parkinson3_2_1.PAR
+│   ├── KIM JS parkinson3_2_1.REC
+│   ├── KIM JS parkinson3_3_1.PAR
+│   └── KIM JS parkinson3_3_1.REC
+~~~
+
+이런 과정을 자동화해서 실행해주는 코드를 제가 만들었는데 그 코드는 아래의 링크에 있습니다.
+
+[전처리를 위한 파일구조 만들어주기]()
 
 ### 2️⃣ BIDSCoin 실행하기
 
