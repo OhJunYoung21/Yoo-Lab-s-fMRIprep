@@ -86,6 +86,12 @@ python3, bidscoin, dcm2niix가 모두 정상적으로 설치되었다면 아래�
 
 [BIDS 정리 노트](https://github.com/OhJunYoung21/Sleep-fMRI/tree/main/BIDS_Coin)
 
+❣️ 여기서 주의할 점 ❣️
+
+bidscoin을 실행하고 bidsify가 끝난 파일의 경로를 fMRIprep.sh안의 input_foler안에 저장해야 한다. 
+
+왜냐하면, bidscoin이 끝난 파일들만 fMRIprep가 인식할 수 있기 때문이다.
+
 ### fMRIprep 실행하기
 
 fMRIprep에 자세한 내용은 아래의 링크에 담아놓았다.
