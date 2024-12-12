@@ -12,6 +12,10 @@ fMRIprep에서는 fMRI(EPI)와 T1w로 촬영한 이미지를 서로 합쳐주는
 
 또한 우리는 해부학적이미지를 보면 어디가 백질인지 알수 있다.
 
+그렇다면, epi에서 백질으로 표시된 부분과 t1w(해부학적 이미지)에서 백질로 표시된 부분이 일치한다면 우리는 꽤 정렬이 잘 되었다고 볼수 있는 것이다.
+
+![sub-01_task-BRAINMRINONCONTRASTDIFFUSION_acq-AxialfMRIrest_desc-coreg_bold](https://github.com/user-attachments/assets/405ff930-65e7-474a-8f71-5e3281e0bd70)
+
 
 
 
