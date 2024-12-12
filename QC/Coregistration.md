@@ -15,9 +15,10 @@ fMRIprep에서는 fMRI(EPI)와 T1w로 촬영한 이미지를 서로 합쳐주는
 그렇다면, epi에서 백질으로 표시된 부분과 t1w(해부학적 이미지)에서 백질로 표시된 부분이 일치한다면 우리는 꽤 정렬이 잘 되었다고 볼수 있는 것이다.
 
 
-
-<img src ="https://github.com/user-attachments/assets/9297db42-427b-4530-8b29-ef085da794c7" width = "30%" height = "300px">
-<img src = "https://github.com/user-attachments/assets/21dec3cb-8bed-4ba3-9591-8e22f2026aae" width = "30%" height = "300px">
+<div align = "center">
+  <img src ="https://github.com/user-attachments/assets/9297db42-427b-4530-8b29-ef085da794c7" width = "30%" height = "400px">  
+  <img src = "https://github.com/user-attachments/assets/21dec3cb-8bed-4ba3-9591-8e22f2026aae" width = "30%" height = "400px">
+</div>
 
 EPI이미지를 보면 아무것도 없는 부분인데 백질이라고 판단한 부분들이 있다.
 
