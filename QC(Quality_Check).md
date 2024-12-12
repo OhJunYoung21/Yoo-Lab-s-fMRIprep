@@ -1,1 +1,0 @@
-## Data Quality Check process
