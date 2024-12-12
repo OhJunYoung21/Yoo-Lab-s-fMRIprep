@@ -18,6 +18,7 @@ fMRIprep에서는 fMRI(EPI)와 T1w로 촬영한 이미지를 서로 합쳐주는
 
 ![스크린샷_12-12-2024_16030_](https://github.com/user-attachments/assets/9297db42-427b-4530-8b29-ef085da794c7)
 
+[아래의 사진은 EPI 이미지이다.]
 
 
 
