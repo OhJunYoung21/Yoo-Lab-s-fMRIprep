@@ -20,6 +20,10 @@ fMRIprep에서는 fMRI(EPI)와 T1w로 촬영한 이미지를 서로 합쳐주는
 
 [아래의 사진은 EPI 이미지이다.]
 
+![스크린샷_12-12-2024_155956_](https://github.com/user-attachments/assets/21dec3cb-8bed-4ba3-9591-8e22f2026aae)
+
+EPI이미지를 보면 아무것도 없는 부분인데 백질이라고 판단한 부분들이 있다.
+
 
 
 
