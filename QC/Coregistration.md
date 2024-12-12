@@ -20,7 +20,9 @@ fMRIprep에서는 fMRI(EPI)와 T1w로 촬영한 이미지를 서로 합쳐주는
   <img src = "https://github.com/user-attachments/assets/21dec3cb-8bed-4ba3-9591-8e22f2026aae" width = "30%" height = "400px">
 </div>
 
-EPI이미지를 보면 아무것도 없는 부분인데 백질이라고 판단한 부분들이 있다.
+[오른쪽이 EPI이미지, 왼쪽이 T1w 이미지이다.]
+
+위 두개의 사진을 보면 뭔가 이상함을 알수 있는데, epi에서 빈공간으로 표현된 부분이 실제로는 백질인것을 알수 있다.이는 여러가지 해석이 가능하다고 생각하는데, epi촬영시 백질을 제대로 감지하지 못하였을 수도 있다.
 
 
 
