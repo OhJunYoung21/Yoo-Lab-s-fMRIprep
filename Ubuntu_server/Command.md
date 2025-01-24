@@ -17,17 +17,13 @@ exit
 #!/bin/bash
 
 
-input_folder="/home/junyong/Downloads/RBD_PET_BIDS_positive"
-output_folder="/home/junyong/Downloads/post_prep/RBD_PET_BIDS_positive"
-
-fmriprep-docker $input_folder $output_folder \
-        participant \
-        --fs-license-file /home/junyong/freesurfer/license.txt \
-        --work-dir /home/junyong \
-        --output-spaces MNI152NLin2009cAsym \
-        --nprocs 160 \
-        --mem-mb 80000 \
-        --omp-nthreads 4 \
-        --skip-bids-validation
+docker run -d \
+       -v /home/junyong/Downloads/RBD_PET_BIDS_negative:/data:ro \
+       -v /home/junyong/Downloads/post_prep/RBD_PET_negative:/out \
+       -v /dev/shm/work:/work \
+       -v /home/junyong/freesurfer/license.txt:/opt/freesurfer/license.txt \
+       nipreps/fmriprep:24.1.1 \
+       --skip-bids-validation \
+       /data /out participant
 ~~~
 
