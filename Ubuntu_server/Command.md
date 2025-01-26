@@ -36,6 +36,7 @@ docker ps
 docker ps명령어로 현재 작동하고 있는 컨테이너의 아이디를 확인한 후 (ex aardfasdij123), 해당 아이디의 앞부분(대충 앞에서 6자리)를 복사한 다음
 
 ~~~linux
+### 여기서 CONTAINER_ID는 docker ps로 확인한 CONTAINER_ID의 일부분이다. 원래 ID가 너무 길기때문에 해당 아이디를 식별할수 있는 수준,즉 앞에서 6자리 저도만 복사해서 입력하면 된다.
 docker logs CONTAINER_ID
 ~~~
 를 입력해서 fmriprep이 돌아가는 과정을 실시간으로 확인한다.
