@@ -1,4 +1,4 @@
-### 서버에서 전처리 돌리는 명령어들 정리 
+## 서버에서 전처리 돌리는 명령어들 정리 
 
 * 서버에 접속 (접속되면 비밀번호 입력) ✅
 
@@ -44,6 +44,14 @@ docker logs CONTAINER_ID
 
 ~~~linux
 [INFO] fMRIPrep workflow graph with 8181 nodes built successfully.
+~~~
+
+## 서버에서 작업한 작업물들을 로컬로 가져오는 단계
+
+서버에서 작업한 작업물들을 로컬로 가져올때는 scp를 사용해서 가져오는 방법이 있다. scp는 Secure Copy Protocol의 약자로써, 안전하게 서버내의 파일을 내 로컬로 가져오는 역할을 수행한다.
+
+~~~linux
+scp -r user@10.xxx.xxx.xxx:/home/owner/Downloads/post_prep/RBD_PET_negative_ver_1 $HOME/Desktop/Yoo_Lab
 ~~~
 
 
